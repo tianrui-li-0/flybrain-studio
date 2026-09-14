@@ -1,0 +1,60 @@
+{
+  "dataset": "FlyWire FAFB v783 / official CSV exports",
+  "neurons": 139255,
+  "directed_edges": 2700513,
+  "positioned_neurons": 139255,
+  "photoreceptors": 11153,
+  "source": "https://codex.flywire.ai/",
+  "source_kind": "official_flywire_csv",
+  "version": "783",
+  "downloads": {
+    "provider": "FlyWire Codex official GCS",
+    "version": "783",
+    "downloaded_at": "2026-09-14T09:36:00.736799+00:00",
+    "files": {
+      "neurons.csv.gz": {
+        "url": "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/neurons.csv.gz",
+        "bytes": 1679884,
+        "sha256": "6a6b3759e635f0f35a677d169052362131ec61d95f55919298b55c43fce4e719",
+        "md5": "f60333e9e4124160b9b203b1712a6f91",
+        "generation": "1733428446832038"
+      },
+      "classification.csv.gz": {
+        "url": "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/classification.csv.gz",
+        "bytes": 934402,
+        "sha256": "e946b552f4056dfc977707be0674609832c3f64332a22d69dc0d9615e7aae663",
+        "md5": "701c0faf054ceddb460bea4e87d6a624",
+        "generation": "1771945205700934"
+      },
+      "coordinates.csv.gz": {
+        "url": "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/coordinates.csv.gz",
+        "bytes": 5314546,
+        "sha256": "14337121f451f98c2576cee72c24409ada5aaf7948b7c7ca8de9040296840e05",
+        "md5": "f7a8120f8322405fecbeec2ee1d206e7",
+        "generation": "1733428431583877"
+      },
+      "connections.csv.gz": {
+        "url": "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/connections.csv.gz",
+        "bytes": 50289304,
+        "sha256": "d49dd692e59e153aa3c83f5257bfc0eff51247b86d7bb183386c6d1622c70fc9",
+        "md5": "41206440318c77418bfc7cff1cb3e0fa",
+        "generation": "1733428416885848"
+      }
+    }
+  },
+  "connection_rows": 3869878,
+  "synapses": 34153566,
+  "paper": "https://doi.org/10.1038/s41586-024-07558-y",
+  "input_sha256": {
+    "neurons.csv.gz": "6a6b3759e635f0f35a677d169052362131ec61d95f55919298b55c43fce4e719",
+    "classification.csv.gz": "e946b552f4056dfc977707be0674609832c3f64332a22d69dc0d9615e7aae663",
+    "coordinates.csv.gz": "14337121f451f98c2576cee72c24409ada5aaf7948b7c7ca8de9040296840e05",
+    "connections.csv.gz": "d49dd692e59e153aa3c83f5257bfc0eff51247b86d7bb183386c6d1622c70fc9"
+  },
+  "output_sha256": "3210abd689d224c6232f8ba81bd7f537d7f660b496d5f257eb7567f4da8b935b",
+  "geometry": "Mean of available annotation coordinates per root_id; no skeletons or meshes.",
+  "edges": "All rows in official connections.csv.gz summed across neuropils by directed pair without an extra count threshold. The export itself may be filtered; not all biological synapses.",
+  "model_signs": "GABA=-1, all other/unknown transmitters=+1 using presynaptic neurons.csv.gz nt_type. Educational assumption, not measured receptor effects.",
+  "license": "Scientific data: CC BY-NC 4.0; application code does not relicense data.",
+  "sensory_mapping": "Approximate coordinate-based screen sampling, not measured receptive fields."
+}
