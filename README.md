@@ -4,7 +4,7 @@
 
 FlyBrain Studio 是一个好玩的桌面实验工具：把视频和声音接入基于真实果蝇连接组的神经网络模拟，在 3D 大脑里观察活动、追踪连接，随手调整参数，看看会发生什么。无需先学会神经科学，也可以从拖入第一段视频开始。
 
-![FlyBrain Studio 界面](docs/screenshot.png)
+![FlyBrain Studio 界面](demo.png)
 
 ## 可以玩什么
 
